@@ -1,0 +1,11 @@
+{
+  // keep CSS/SCSS/Less validation enabled, but ignore unknown at-rules (Tailwind)
+  "css.validate": true,
+  "scss.validate": true,
+  "less.validate": true,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+
+  // optional: reduce noise from the built-in validator if using stylelint
+  "css.lint.validProperties": ["*"]
+}
